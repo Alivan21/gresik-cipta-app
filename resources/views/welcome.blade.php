@@ -69,16 +69,20 @@
           @include('components.lineChart')
         </div>
       </section>
-      <section class="flex flex-col gap-5 mt-10 mb-5">
+      <section class="flex flex-col relative overflow-x-auto gap-5 mt-10 mb-5 pb-3">
         <div class="w-fit focus:outline-none text-white bg-red-700 rounded-xl text-sm px-5 py-2.5">
           <h1 class="font-bold text-lg">Dalam Ribu</h1>
         </div>
-        <div class="flex gap-5 overflow-auto">
-          @include('components.radialChart')
-          @include('components.radialChart2')
-          @include('components.radialChart3')
-          @include('components.radialchart4')
+        <div class="w-[100rem]">
+          <div class="flex flex-nowrap gap-5">
+            @include('components.radialChart')
+            @include('components.radialChart2')
+            @include('components.radialChart3')
+            @include('components.radialchart4')
+            @include('components.radialchart5')
+          </div>
         </div>
+
       </section>
     </main>
   </div>
