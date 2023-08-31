@@ -73,10 +73,11 @@
         <div class="w-fit focus:outline-none text-white bg-red-700 rounded-xl text-sm px-5 py-2.5">
           <h1 class="font-bold text-lg">Dalam Ribu</h1>
         </div>
-        <div class="flex gap-5">
+        <div class="flex gap-5 overflow-auto">
           @include('components.radialChart')
           @include('components.radialChart2')
           @include('components.radialChart3')
+          @include('components.radialchart4')
         </div>
       </section>
     </main>

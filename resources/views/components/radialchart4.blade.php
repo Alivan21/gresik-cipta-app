@@ -1,6 +1,6 @@
 <div class="max-w-sm w-full bg-white border border-gray-200 rounded-lg shadow p-4 md:p-6">
   <div class="flex justify-between items-center mb-3">
-    <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pr-1">Subsidi</h5>
+    <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pr-1">Penjualan</h5>
     <h6>Agustus 2023</h6>
   </div>
 
@@ -22,7 +22,7 @@
   </div>
 
   <!-- Radial Chart -->
-  <div class="py-6" id="radial-chart"></div>
+  <div class="py-6" id="radial-chart4"></div>
 
 </div>
 
@@ -88,8 +88,8 @@
       }
     }
 
-    if (document.getElementById("radial-chart") && typeof ApexCharts !== 'undefined') {
-      var chart = new ApexCharts(document.querySelector("#radial-chart"), getChartOptions());
+    if (document.getElementById("radial-chart4") && typeof ApexCharts !== 'undefined') {
+      var chart = new ApexCharts(document.querySelector("#radial-chart4"), getChartOptions());
       chart.render();
     }
   });

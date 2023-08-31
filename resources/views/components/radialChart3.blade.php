@@ -47,7 +47,7 @@
               background: '#E5E7EB',
             },
             dataLabels: {
-              show: false,
+              show: true,
             },
             hollow: {
               margin: 0,
